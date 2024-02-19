@@ -42,8 +42,7 @@ main {
 /* Banner */
 
 .banner {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -92,4 +91,41 @@ h4 {
 
 .tea-types h4 {
   margin-top: 10px;
+}
+
+/* End of Tea Types */
+/* Loactions */
+.locations {
+  width: 1200px;
+  height: 500px;
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.locations h2 {
+  margin-bottom: 15px;
+}
+
+.locations .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.locations .container .site {
+  width: 300px;
+  background-color: #040302;
+  text-align: center;
+  line-height: 3;
+}
+
+.locations .container .site h3 {
+  font-size: 24px;
 }
