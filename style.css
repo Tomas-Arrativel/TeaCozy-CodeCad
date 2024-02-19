@@ -61,12 +61,35 @@ main {
   padding: 10px;
 }
 
-.text h2 {
+h2 {
   font-size: 35px;
   margin-bottom: 12px;
 }
-.text h4 {
+h4 {
   font-size: 22px;
 }
 /* End of banner */
-/* Tea of the month */
+/* Tea types */
+.teas {
+  width: 1000px;
+  margin: 3.5rem 0;
+  text-align: center;
+}
+.teas h4 {
+  margin-bottom: 25px;
+}
+
+.tea-types {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 33px;
+}
+.tea-types img {
+  height: 200px;
+  width: 300px;
+}
+
+.tea-types h4 {
+  margin-top: 10px;
+}
