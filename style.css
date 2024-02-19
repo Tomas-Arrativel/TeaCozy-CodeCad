@@ -129,3 +129,23 @@ h4 {
 .locations .container .site h3 {
   font-size: 24px;
 }
+
+/* Locations finished */
+/* Contact & Footer */
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+}
+
+footer {
+  width: 100%;
+  background-color: #040302;
+  padding: 20px;
+}
+footer p {
+  font-size: 20px;
+  font-weight: 700;
+}
