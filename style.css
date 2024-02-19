@@ -1,6 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff5ee;
+  font-family: Helvetica;
+  font-size: 22px;
+}
+
+/* Navbar */
 nav {
-  background-color: #0c0804;
+  background-color: #040302;
+  opacity: 0.9;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 9.5px 10px;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #fff5ee;
+}
+
+nav a img {
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
 }
